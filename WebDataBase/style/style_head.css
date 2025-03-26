@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: .5em;
+    margin-bottom: .2em;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: .5em;
+    margin-right: .5em;
+    border-radius: .5em;
+    transition: .3s ease;
+}
+.nav-links a:hover {
+    background-color: #0056b3;
+}
+.logout-button {
+    background-color: #E32516;
+    color: white;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    transition: .3s ease;
+}
+.logout-button:hover {
+    background-color:rgb(211, 50, 50);
+}
+.username {
+    color: white;
+    margin-right: .5em;
+}
+
+/* Общие стили для формы (темная тема) */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode h1 {
+    color: #ffffff;
+}
+
+body.dark-mode form {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+body.dark-mode label {
+    color: #e0e0e0;
+}
+
+body.dark-mode input[type="number"],
+body.dark-mode input[type="text"],
+body.dark-mode select,
+body.dark-mode textarea {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #555;
+}
+
+body.dark-mode textarea {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #555;
+}
+
+body.dark-mode button {
+    background-color: #007bff;
+    color: white;
+}
+
+body.dark-mode button:hover {
+    background-color: #0056b3;
+}
+
+body.dark-mode p[style*="color: green;"] {
+    background-color: #2e7d32;
+    border: 1px solid #1b5e20;
+    color: #e0e0e0;
+}
+
+body.dark-mode p[style*="color: red;"] {
+    background-color: #c62828;
+    border: 1px solid #b71c1c;
+    color: #e0e0e0;
+}
+
+/* Стили для навбара (темная тема) */
+body.dark-mode .navbar {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+body.dark-mode .nav-links a {
+    color: #e0e0e0;
+}
+
+body.dark-mode .nav-links a:hover {
+    background-color: #333;
+}
+
+body.dark-mode .logout-button {
+    background-color: #c62828;
+    color: white;
+}
+
+body.dark-mode .logout-button:hover {
+    background-color: #b71c1c;
+}

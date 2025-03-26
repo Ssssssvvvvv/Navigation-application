@@ -1,0 +1,43 @@
+/* Общие стили таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+/* Стиль заголовков столбцов */
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #0056b3;
+}
+
+/* Стиль ячеек данных */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Чередование цветов строк */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Стилизация заголовка таблицы */
+caption {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+}
+
+/* Стилизация выделенных строк при наведении курсора */
+tbody tr:hover {
+    background-color: #eaeaea;
+}
