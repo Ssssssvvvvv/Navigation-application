@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
         try {
             // Подготовка SQL-запроса
-            $stmt = $conn->prepare("SELECT room_number, room_type, floor_id, building_id, info FROM rooms WHERE room_number = :room_number");
+            $stmt = $conn->prepare("SELECT room_type FROM rooms WHERE room_number = :room_number");
             $stmt->bindParam(':room_number', $room_number);
             $stmt->execute();
             $room = $stmt->fetch(PDO::FETCH_ASSOC);
