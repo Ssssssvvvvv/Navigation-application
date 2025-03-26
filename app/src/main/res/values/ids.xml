@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="resetButton" type="id" />
+    <item name="photoImageView" type="id" />
+    <item name="overlayText" type="id" />
+</resources>
